@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:control="clr-namespace:Xamarin.Forms.MaskedEntry;assembly=Xamarin.Forms.MaskedEntry"
+               xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+               Title= "MaskedEntry"
+             ios:Page.UseSafeArea="true"
+             x:Class="PluginsControlesMVPConf.Views.MaskedEntry">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+        <Label Text="Telefone"></Label>
+        <control:MaskedEntry Placeholder="Telefone" Mask="(XX)XXXX-XXXX" Keyboard="Numeric" ></control:MaskedEntry>
+        <Label Text="Numero de funcionario"></Label>
+        <control:MaskedEntry Placeholder="Numero de Funcionario" Mask="XXXXX.XXXXX.XX-XX  (XX)" ></control:MaskedEntry>
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

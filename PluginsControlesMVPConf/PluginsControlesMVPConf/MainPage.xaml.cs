@@ -50,5 +50,10 @@ namespace PluginsControlesMVPConf
         {
             await Navigation.PushAsync(new PluginsControlesMVPConf.Views.BehaviorValidationPack());
         }
+
+        public async void MaskedEntry_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PluginsControlesMVPConf.Views.MaskedEntry()); 
+        }
     }
 }

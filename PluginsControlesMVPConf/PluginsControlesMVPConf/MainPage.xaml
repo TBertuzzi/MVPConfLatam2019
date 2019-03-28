@@ -26,12 +26,12 @@
           </Grid.RowDefinitions>
                 
               <Button Grid.Row="0" Grid.Column="0"  Text="FFImageLoading" Clicked="ffImageLoading_Clicked" />
-              <Button Grid.Row="0" Grid.Column="1"  Text="Local Notifications" />
+              <Button Grid.Row="0" Grid.Column="1"  Text="Local Notifications" Clicked="localNotifications_Clicked" />
               <Button Grid.Row="1" Grid.Column="0"  Text="FingerPrint Plugin" />
               <Button Grid.Row="1" Grid.Column="1"  Text="Multi SelectListView" />
-              <Button Grid.Row="2" Grid.Column="0"  Text="MaskedEntry" />
-              <Button Grid.Row="2" Grid.Column="1"  Text="Xamarin.Essentials" />
-              <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"  Text="FFImageLoading" />
+              <Button Grid.Row="2" Grid.Column="0"  Text="BehaviorValidation Pack" />
+              <Button Grid.Row="2" Grid.Column="1"  Text="MaskedEntry" />
+              <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"  Text="Xamarin.Essentials" />
        </Grid>
             
       </StackLayout>

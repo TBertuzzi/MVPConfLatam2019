@@ -53,7 +53,12 @@ namespace PluginsControlesMVPConf
 
         public async void MaskedEntry_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new PluginsControlesMVPConf.Views.MaskedEntry()); 
+            await Navigation.PushAsync(new PluginsControlesMVPConf.Views.MaskedEntry());
+        }
+
+        public async void XamarinEssentials_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PluginsControlesMVPConf.Views.XamarinEssentials());
         }
     }
 }

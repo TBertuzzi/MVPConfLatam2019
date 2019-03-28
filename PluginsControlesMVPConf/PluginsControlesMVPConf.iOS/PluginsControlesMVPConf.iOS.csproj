@@ -175,5 +175,6 @@
   <ItemGroup>
     <BundleResource Include="Resources\mvpConfLocal.png" />
     <BundleResource Include="Resources\mvpConfLogo.png" />
+    <BundleResource Include="Resources\select.png" />
   </ItemGroup>
 </Project>

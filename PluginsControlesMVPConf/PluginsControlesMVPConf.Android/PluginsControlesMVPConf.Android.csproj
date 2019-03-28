@@ -102,6 +102,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\drawable\mvpConfLocal.png" />
     <AndroidResource Include="Resources\drawable\mvpConfLogo.png" />
+    <AndroidResource Include="Resources\drawable\select.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

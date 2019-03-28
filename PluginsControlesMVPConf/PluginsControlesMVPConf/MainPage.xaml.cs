@@ -40,5 +40,15 @@ namespace PluginsControlesMVPConf
             }
 
         }
+
+        public async void MultiSelectListView_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PluginsControlesMVPConf.Views.MultiSelectListView());
+        }
+
+        public async void BehaviorValidationPack_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PluginsControlesMVPConf.Views.BehaviorValidationPack());
+        }
     }
 }

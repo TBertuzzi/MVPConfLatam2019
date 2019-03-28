@@ -7,6 +7,8 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using FFImageLoading.Forms.Platform;
+using Plugin.Fingerprint;
+using Plugin.CurrentActivity;
 
 namespace PluginsControlesMVPConf.Droid
 {
@@ -22,6 +24,8 @@ namespace PluginsControlesMVPConf.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
             CachedImageRenderer.Init(false);
+
+            CrossFingerprint.SetCurrentActivityResolver(() => CrossCurrentActivity.Current.Activity);
 
             LoadApplication(new App());
         }

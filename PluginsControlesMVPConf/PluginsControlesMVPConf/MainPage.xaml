@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
              ios:Page.UseSafeArea="true"
+             Title="MVP Conf Latam"
              xmlns:local="clr-namespace:PluginsControlesMVPConf" x:Class="PluginsControlesMVPConf.MainPage">
     
     <ScrollView>
@@ -11,7 +12,7 @@
         <Image x:Name="imgLogo" Source="mvpConfLogo.png" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0,0,0"/>
         <Image x:Name="imgLocal" Source="mvpConfLocal.png" VerticalOptions="Center" HeightRequest="300"  HorizontalOptions="Center" Margin="0,0,0,0"/>
 
-        <Label Text="Plugins e Controles para Xamarin Forms" FontSize="20" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0,0,10" /> 
+        <Label Text="Plugins e Controles para Xamarin Forms" FontSize="20" FontAttributes="Bold" TextColor="#B1182E" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0,0,10" /> 
         
        <Grid>
            <Grid.ColumnDefinitions>
@@ -25,13 +26,13 @@
              <RowDefinition Height="*"/>
           </Grid.RowDefinitions>
                 
-              <Button Grid.Row="0" Grid.Column="0"  Text="FFImageLoading" Clicked="ffImageLoading_Clicked" />
-              <Button Grid.Row="0" Grid.Column="1"  Text="Local Notifications" Clicked="localNotifications_Clicked" />
-              <Button Grid.Row="1" Grid.Column="0"  Text="FingerPrint Plugin" Clicked="fingerprint_Clicked" />
-              <Button Grid.Row="1" Grid.Column="1"  Text="MultiSelectListView" Clicked="MultiSelectListView_Clicked" />
-              <Button Grid.Row="2" Grid.Column="0"  Text="BehaviorValidation Pack" Clicked="BehaviorValidationPack_Clicked" />
-              <Button Grid.Row="2" Grid.Column="1"  Text="MaskedEntry" Clicked="MaskedEntry_Clicked"/>
-              <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"  Text="Xamarin.Essentials" Clicked="XamarinEssentials_Clicked" />
+              <Button Grid.Row="0" Grid.Column="0" BorderWidth="1" BorderColor="#B1182E" TextColor="Black" FontAttributes="Bold" Text="FFImageLoading" Clicked="ffImageLoading_Clicked" />
+              <Button Grid.Row="0" Grid.Column="1" BorderWidth="1" BorderColor="#B1182E" TextColor="Black" FontAttributes="Bold" Text="Local Notifications" Clicked="localNotifications_Clicked" />
+              <Button Grid.Row="1" Grid.Column="0" BorderWidth="1" BorderColor="#B1182E" TextColor="Black" FontAttributes="Bold" Text="FingerPrint Plugin" Clicked="fingerprint_Clicked" />
+              <Button Grid.Row="1" Grid.Column="1" BorderWidth="1" BorderColor="#B1182E" TextColor="Black" FontAttributes="Bold" Text="MultiSelectListView" Clicked="MultiSelectListView_Clicked" />
+              <Button Grid.Row="2" Grid.Column="0" BorderWidth="1" BorderColor="#B1182E" TextColor="Black" FontAttributes="Bold" Text="BehaviorValidation Pack" Clicked="BehaviorValidationPack_Clicked" />
+              <Button Grid.Row="2" Grid.Column="1" BorderWidth="1" BorderColor="#B1182E" TextColor="Black" FontAttributes="Bold" Text="MaskedEntry" Clicked="MaskedEntry_Clicked"/>
+              <Button Grid.Row="3" Grid.Column="0" BorderWidth="1" Grid.ColumnSpan="2"  BorderColor="#B1182E" TextColor="Black" FontAttributes="Bold" Text="Xamarin.Essentials" Clicked="XamarinEssentials_Clicked" />
        </Grid>
             
       </StackLayout>

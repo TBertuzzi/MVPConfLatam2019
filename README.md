@@ -9,7 +9,7 @@ Apresentação :
 Exemplos :
 * https://github.com/TBertuzzi/MarvelHeroesCN
 * https://github.com/BenReierson/DragonFrontCompanion
-* https://github.com/jsuarezruiz/xamarin-forms-netflix-sample.git
+* https://github.com/jsuarezruiz/xamarin-forms-netflix-sample
 
 ## Plugins e Controles para Xamarin.Forms
 

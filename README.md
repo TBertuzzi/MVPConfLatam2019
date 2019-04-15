@@ -4,7 +4,7 @@ Conteúdo das Minhas Palestras no MVPConf
 
 ## Porque Xamarin.Forms É Incrivel
 
-Apresentação :
+Apresentação : https://pt.slideshare.net/ThiagoBertuzzi/porque-xamarinforms-incrivel-mvpconflatam2019
 
 Exemplos :
 * https://github.com/TBertuzzi/MarvelHeroesCN
@@ -13,7 +13,7 @@ Exemplos :
 
 ## Plugins e Controles para Xamarin.Forms
 
-Apresentação :
+Apresentação : https://pt.slideshare.net/ThiagoBertuzzi/plugins-e-controles-para-xamarinforms-mvpconflatam2019
 
 Exemplo :
 * https://github.com/TBertuzzi/MVPConfLatam2019/tree/master/PluginsControlesMVPConf

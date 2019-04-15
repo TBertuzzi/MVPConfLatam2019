@@ -1,5 +1,7 @@
 # MVPConfLatam2019
 
+![](https://github.com/TBertuzzi/MVPConfLatam2019/blob/master/Resources/logo.png?raw=true)
+
 Conteúdo das Minhas Palestras no MVPConf
 
 ## Porque Xamarin.Forms É Incrivel
